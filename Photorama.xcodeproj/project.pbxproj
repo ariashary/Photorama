@@ -15,6 +15,7 @@
 		BDF21B6123098C090055DDDF /* PhotoramaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF21B6023098C090055DDDF /* PhotoramaUITests.swift */; };
 		BDF21B6F23098C760055DDDF /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF21B6E23098C760055DDDF /* PhotosViewController.swift */; };
 		BDF21B71230995090055DDDF /* FlickrAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF21B70230995090055DDDF /* FlickrAPI.swift */; };
+		BDF21B7323099FDD0055DDDF /* PhotoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF21B7223099FDD0055DDDF /* PhotoStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		BDF21B6223098C090055DDDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDF21B6E23098C760055DDDF /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		BDF21B70230995090055DDDF /* FlickrAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrAPI.swift; sourceTree = "<group>"; };
+		BDF21B7223099FDD0055DDDF /* PhotoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				BDF21B4C23098C090055DDDF /* Info.plist */,
 				BDF21B6E23098C760055DDDF /* PhotosViewController.swift */,
 				BDF21B70230995090055DDDF /* FlickrAPI.swift */,
+				BDF21B7223099FDD0055DDDF /* PhotoStore.swift */,
 			);
 			path = Photorama;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				BDF21B71230995090055DDDF /* FlickrAPI.swift in Sources */,
 				BDF21B6F23098C760055DDDF /* PhotosViewController.swift in Sources */,
+				BDF21B7323099FDD0055DDDF /* PhotoStore.swift in Sources */,
 				BDF21B4123098C050055DDDF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
