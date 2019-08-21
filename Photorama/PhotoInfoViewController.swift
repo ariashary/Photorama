@@ -34,7 +34,7 @@ class PhotoInfoViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         switch segue.identifier {
-        case "shoeTags"?:
+        case "showTags"?:
             let navController = segue.destination as! UINavigationController
             let tagController = navController.topViewController as! TagsViewController
             

@@ -155,8 +155,16 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Tags" id="n9M-5t-Xs8">
-                        <barButtonItem key="leftBarButtonItem" style="done" systemItem="done" id="RP3-Po-mDo"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="aMZ-0k-zCH"/>
+                        <barButtonItem key="leftBarButtonItem" style="done" systemItem="done" id="RP3-Po-mDo">
+                            <connections>
+                                <action selector="done:" destination="Qez-Io-ETW" id="5WG-Dg-N4U"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="aMZ-0k-zCH">
+                            <connections>
+                                <action selector="addNewTag:" destination="Qez-Io-ETW" id="yN4-H1-AWQ"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R8o-7r-zXo" userLabel="First Responder" sceneMemberID="firstResponder"/>
